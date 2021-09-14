@@ -11,6 +11,6 @@ The purpose of this website is to document the data interoperability tools devel
 Links to Content:
 
 - [Home (this page)](https://agmip.github.io/)
-  - [AgMIP Translators](https://github.com/agmip/agmip.github.io/blob/master/docs/AgMIP_translators.md)
+  - [AgMIP Translators](AgMIP_translators.md)
     - DOMEs
   - ICASA
