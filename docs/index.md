@@ -1,5 +1,6 @@
 # The Agricultural Model Intercomparison and Improvement Project
 
+<!-- ![image](https://raw.githubusercontent.com/agmip.github.io/master/docs/images/AgMIP_logo3_noBackground.jpg) -->
 
 
 The AgMIP Mission is to significantly improve agricultural models, and scientific and technological capabilities, for assessing impacts of climate variability and change and other driving forces on agriculture, food security, and poverty at local to global scales. 
