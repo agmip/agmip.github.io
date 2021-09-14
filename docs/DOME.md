@@ -65,8 +65,17 @@ https://github.com/agmip/json-translation-samples.
 
 
 
+## Connecting Experimental data with DOME data through Linkage files
 
-### References
+If only one DOME file is specified, linkage is easy. The specified DOME is associated with each experiment and treatment (or survey element) in the dataset. But often, it is necessary to specify multiple DOMEs. For example, if the data set includes different soil types, then initial conditions may be specified for each soil type. In our Hot Serial Cereal example, no linkage file was used because the same field overlay DOME was applied to all treatments of the experiment. But if different DOMEs were applied, they would be specified in a linkage file (.lnk) as shown below. In this sample, each EXNAME is associated with one or more field overlay files. The name of the DOME is constructed from the metadata block at the top of each DOME. Multiple DOMEs can be separated by the “|” (pipe) symbol, and they are applied in the order specified. Seasonal strategy DOMEs allow multiple years of execution from a single year of data and allow rules for automatic planting and irrigation to be specified for models that allow such rules. In this example, two field overlay DOMEs were specified and 3 seasonal strategy DOMEs.
+
+DOME linkage specification:
+
+![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/Linkage.JPG)
+
+When multiple DOME files are applied to a dataset, they should be “zipped” together and loaded into QuadUI as a zip archive file.
+
+## References
 
 Kimball, B.A., J.W. White, G.W. Wall, M.J. Ottman 2016. Wheat Responses to a Wide Range of Temperatures: The Hot Serial Cereal Experiment. In: J. L. Hatfield, D. Fleisher, editors, Improving Modeling Tools to Assess Climate Change Effects on Crop Response, Adv. Agric. Syst. Model. 7. ASA, CSSA, and SSSA, Madison, WI. p. 33-44. [doi:10.2134/advagricsystmodel7.2014.0014](https://doi.org/10.2134/advagricsystmodel7.2014.0014)
 
