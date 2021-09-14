@@ -61,3 +61,4 @@ Porter, C.H., C. Villalobos, D. Holzworth, R. Nelson, J.W. White, I.N. Athanasia
 
 Rosenzweig, C., J.W. Jones, J.L. Hatfield, A.C. Ruane, K.J. Boote, P. Thorburn, J.M. Antle,G.C. Nelson, C. Porter, S. Janssen, S. Asseng, B. Basso, F. Ewert, D. Wallach, G. Baigorria, and J.M. Winter.  2012. The Agricultural Model Intercomparison and Improvement Project (AgMIP): Protocols and Pilot Studies.  Ag. For. Meteor. 170:166-182[doi:10.1016/j.agrformet.2012.09.011](http://dx.doi.org/10.1016/j.agrformet.2012.09.011). 
 
+[Home](index.md)
