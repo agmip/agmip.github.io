@@ -1,6 +1,6 @@
 # The Agricultural Model Intercomparison and Improvement Project
 
-![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/AgMIP_logo3_noBackground.jpg)
+![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/AgMIP_logo.jpg)
 
 The AgMIP Mission is to significantly improve agricultural models, and scientific and technological capabilities, for assessing impacts of climate variability and change and other driving forces on agriculture, food security, and poverty at local to global scales. 
 
@@ -11,6 +11,6 @@ The purpose of this website is to document the data interoperability tools devel
 Links to Content:
 
 - [Home (this page)](https://agmip.github.io/)
-  - [AgMIP Translators](https://github.com/agmip/agmip.github.io/blob/master/docs/AgMIP_translators.md)
+  - [AgMIP Translators](AgMIP_translators.md)
     - DOMEs
   - ICASA
