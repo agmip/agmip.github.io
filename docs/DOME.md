@@ -27,6 +27,42 @@ The metadata section at the top of every DOME file contains the full description
 
 ![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/DOME1.JPG)
 
+The DOME name is constructed from a concatenation of each metadata field (orange block above), separated by a dash. It is important to not use dashes in the field identifier text for this reason. The DOME name is used to link multiple DOMEs to the corresponding data elements.
+
+### Initial conditions
+The initial conditions block is often needed in simulations if the soil water and nitrogen contents were not measured at the beginning of the simulation. Modelers must make their best evaluation of field conditions. Several DOME functions facilitate this process.
+
+![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/DOME2.JPG)
+
+In this example, initial soil water content (ICH2O) was estimated using the PCTAWC function (percent available water). The user estimated that at the beginning of simulation that soil water content in each layer of the soil profile was 50% between lower limit and drained upper limit. See http://research.agmip.org/display/itwiki/PCTAWC+-+Percent+available+water for more information on this function.
+
+The initial soil nitrate (ICNO3) and ammonium (ICNH4) values are provided as values. These variables are arrays and so the same value is used for every element of the array. In this case, initial nitrate concentration is set to 5 ppm and ammonium to 2 ppm in every soil layer.
+The csv form of this initial conditions section would look like this:
+
+![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/DOME3.JPG)
+
+### Planting data. 
+Planting and soil data are similarly filled with modeler-supplied parameters. Some of the values might be specific to a particular model. For example, in the Planting Event section, cultivar names specific to each model are provided. The model ID is used as a prefix for each. In this case, the “REPLACE” operator is used to provide cultivar names. These names will override any cultivar IDs in the data, if they are provided.
+
+![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/DOME4.JPG)
+
+### Soil data
+Some additional DOME functions are provided in the soil data. The ROOT_DIST() function allows the DSSAT array, soil root growth factor, to be set based on a value in the topsoil, the depth of the topsoil, and the depth at which the exponentially decaying function reaches 2% of the value in the topsoil.  More information about this function is given here: http://research.agmip.org/display/itwiki/ROOT_DIST+-+Root+distribution+function. 
+
+The second function used here computes stable organic C as a function of soil depth based on the STABLEC() function, described here: http://research.agmip.org/display/itwiki/STABLEC+-+Stable+C+fraction+distribution+in+soil+layers. 
+
+The MULTIPLY() function simply takes one value as an argument, multiplies it by a constant, and returns the requested variable. In this case, the inert organic C array is computed as 0.9 times the stable organic C computed with the previous function.
+
+![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/DOME5.JPG)
+
+### Simulation controls 
+Simulation controls are model-specific and are never contained within the data collected in the field. These contain information such as when to start the simulation. In this example, the modeler chose to start the simulation 30 days prior to the planting date by using the OFFSET_DATE() function. The date associated with initial conditions was set to the start of simulation date.
+
+![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/DOME6.JPG)
+
+Additional examples of AgMIP formatted JSON and DOME data can be found on the AgMIP Github site:
+https://github.com/agmip/json-translation-samples. 
+
 
 
 
