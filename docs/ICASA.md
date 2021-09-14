@@ -4,7 +4,7 @@ The International Consortium for Agricultural Systems Applications (ICASA) devel
 
 VMapper, the AgMIP translation tools, and the ARDN Translator API all depend on the ICASA Data Dictionary as the basis for negotiating terms and units. 
 
-**Supporting documents**
+### Supporting documents
 
 White, J.W., Hunt, L.A., Boote, K.J., Jones, J.W., Koo, J., Kim, S., Porter, C.H., Wilkens, P.W., Hoogenboom, G. 2013. Integrated Description of Agricultural Field Experiments and Production: the ICASA Version 2.0 Data Standards. Computers and Electronics in Agriculture. 96:1-12.
 
