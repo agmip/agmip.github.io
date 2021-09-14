@@ -11,3 +11,6 @@ White, J.W., Hunt, L.A., Boote, K.J., Jones, J.W., Koo, J., Kim, S., Porter, C.H
 Hunt, L.A., Hoogenboom, G., Jones, J.W., White, J.W., 2006. ICASA Version 1.0 Data Standards for Agricultural Research and Decision Support.
 
 Porter, C.H., C. Villalobos, D. Holzworth, R. Nelson, J.W. White, I.N. Athanasiadis, S. Janssen, D. Ripoche, J. Cufi, D. Raes, M. Zhang, R. Knapen, R. Sahajpal, K.J. Boote, J.W. Jones. 2014. Harmonization and translation of crop modeling data to ensure interoperability. Environmental Modelling and Software. 62:495-508. [doi:10.1016/j.envsoft.2014.09.004](https://doi.org/10.1016/j.envsoft.2014.09.004). 
+
+
+[Home](https://agmip.github.io/)

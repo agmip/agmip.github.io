@@ -12,5 +12,5 @@ Links to Content:
 
 - [Home (this page)](https://agmip.github.io/)
   - [AgMIP Translators](AgMIP_translators.md)
-    - DOMEs
-  - ICASA
+    - [DOMEs](DOME.md)
+  - [ICASA](ICASA.md)
