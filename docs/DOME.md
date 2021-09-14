@@ -22,6 +22,15 @@ As an example, we will look at the Field overlay DOME used for the Hot Serial Ce
 * All function names include “()” after the function name. Columns 5 through N after a function name contain function parameters. 
 * Functions are applied in order, so if variable B depends on variable A, then variable A must be specified prior to variable B. 
 
+### Metadata section
+The metadata section at the top of every DOME file contains the full description of the scenario being modeled. This section is used by AgMIP Regional Integrated Assessment Teams to carry consistent metadata throughout workflows to provide provenance to final model outputs. Fields that are not relevant to a simulation may be left blank, but as a minimum, the DOME region identification (REG_ID) must be filled.
+
+![image](https://https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/DOME1.jpg)
+
+
+
+
+
 ### References
 
 Kimball, B.A., J.W. White, G.W. Wall, M.J. Ottman 2016. Wheat Responses to a Wide Range of Temperatures: The Hot Serial Cereal Experiment. In: J. L. Hatfield, D. Fleisher, editors, Improving Modeling Tools to Assess Climate Change Effects on Crop Response, Adv. Agric. Syst. Model. 7. ASA, CSSA, and SSSA, Madison, WI. p. 33-44. [doi:10.2134/advagricsystmodel7.2014.0014](https://doi.org/10.2134/advagricsystmodel7.2014.0014)
