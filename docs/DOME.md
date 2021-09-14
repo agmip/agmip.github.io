@@ -2,7 +2,7 @@
 
 DOME files - A DOME (Data Overlay for Multi-model Export) file supplies additional information to supplement data collected in a field experiment. Addition of DOME data does not alter the original dataset and multiple DOMEs can be combined to create complex scenarios for simulation. 
 
-DOME functions are available (see http://research.agmip.org/display/itwiki/The+DOME) to estimate modeling inputs such as initial water content, initial N distribution, and planting date.
+DOME functions are available (see link) to estimate modeling inputs such as initial water content, initial N distribution, and planting date.
 
 There are three kinds of DOME files:
 * Field overlay DOMEs add information to supplement a baseline simulation. These data are used in addition to data collected in the field and are provided solely to complete model input data required for this baseline simulation. 
@@ -17,19 +17,9 @@ General notes on the DOME file structure:
 * he second column of every data line contains operators: INFO (for metadata), FILL (to fill in missing values), or REPLACE (to replace all values with the data provided).
 * The third column contains the name of the variable being provided.
 * The fourth column contains either a value or a function name. 
-* All function names include ì()î after the function name. Columns 5 through N after a function name contain function parameters. 
+* All function names include ‚Äú()‚Äù after the function name. Columns 5 through N after a function name contain function parameters. 
 * Functions are applied in order, so if variable B depends on variable A, then variable A must be specified prior to variable B. 
 
-## Metadata section
-The metadata section at the top of every DOME file contains the full description of the scenario being modeled. This section is used by AgMIP Regional Integrated Assessment Teams to carry consistent metadata throughout workflows to provide provenance to final model outputs. Fields that are not relevant to a simulation may be left blank, but as a minimum, the DOME region identification (REG_ID) must be filled.
-
-| ! | Comment | Dome_Name          | HSC-----FIELD | ! Auto-generated from following 6 fields.
-| & | INFO    | REG_ID	HSC        |               | ! Region ID
-| & | INFO    | Stratum            |               | ! Socioeconomic or geographic stratum ID
-| & | INFO    | RAP_ID             |               | ! Representative Agricultural Pathway (RAP) ID
-| & | INFO    | MAN_ID             |               | ! Management or scenario ID
-| & | INFO    | RAP_VER            |               | ! RAP version
-| & | INFO    | DESCRIPTION	FIELD  |               | ! Description of scenario
 
 
 [Home](index.md)
