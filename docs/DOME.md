@@ -25,7 +25,7 @@ As an example, we will look at the Field overlay DOME used for the Hot Serial Ce
 ### Metadata section
 The metadata section at the top of every DOME file contains the full description of the scenario being modeled. This section is used by AgMIP Regional Integrated Assessment Teams to carry consistent metadata throughout workflows to provide provenance to final model outputs. Fields that are not relevant to a simulation may be left blank, but as a minimum, the DOME region identification (REG_ID) must be filled.
 
-![image](https://https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/DOME1.jpg)
+![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/DOME1.jpg)
 
 
 
