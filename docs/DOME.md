@@ -2,7 +2,7 @@
 
 Even very detailed datasets often lack complete data for crop model simulation. DOME (Data Overlay for Multi-model Export) files can be used to supply additional information to supplement data collected in a field experiment or farm survey. Use of a DOME does not alter the original dataset. Multiple DOMEs can be combined to create complex scenarios for simulation, making these a powerful tool for generating hypothetical scenarios from real data. 
 
-DOME functions have been developed to allow a modeler to estimate missing modeling inputs such as initial water content, initial N distribution, soil properties, and planting dates.
+DOME functions have been developed to allow a modeler to estimate missing modeling inputs such as initial water content, initial N distribution, soil properties, and planting dates. Descriptions of these functions are listed [**here**](DOME_functions.md).
 
 There are three kinds of DOME files:
 * **Field overlay DOMEs** add information to supplement a baseline simulation. These data are used in addition to data collected in the field and are provided solely to complete model input data required for this baseline simulation. 
