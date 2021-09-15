@@ -14,4 +14,21 @@ Distributes roots (or other soil parameters) using an exponential decay curve fr
 * F = array of soil factors which decline exponentially between PP and RD (units depend on variable, same units as M)
 
 ### Procedure:
+
+```
+/* exponential decay rate */
+ k = LN(0.02)/(RD - PP)
+
+/* loop thru soil layers */ 
+
+/* midpoints of soil layers */
+ mid(1) = SLLB(1) / 2 
+ mid(j) = [SLLB(j) + SLLB(j-1)] / 2
+
+ 
+If mid(j) <= PP
+  then F(j) = M
+  else F(j) = M * EXP{k *(mid(j) - PP)}
+``` 
+
 [Home](index.md)
