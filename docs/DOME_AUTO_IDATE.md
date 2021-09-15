@@ -79,7 +79,7 @@ The output is as follows:
 ```
 
 **More Samples:**
- The following DOME spreadsheet uses this function:
+The following DOME spreadsheet uses this function:
 [Machakos Overlay DOME](https://github.com/agmip/json-translation-samples/blob/master/Maize_Machakos/raw/Field_Overlay-Machakos-MAZ.xlsx?raw=true)
 
 
