@@ -31,4 +31,17 @@ If mid(j) <= PP
   else F(j) = M * EXP{k *(mid(j) - PP)}
 ``` 
 
+### Examples
+
+#### Example 1 - Root growth factor:
+
+```
+FILL, SLRGF, ROOT_DIST(), 1.0, 20, 180
+```
+
+For M = 1.0, 
+PP = 20 cm, 
+RD = 180 cm, 
+the rate constant, k is calculated to be -0.02445 and the array of factors, F, are computed as:
+
 [Home](index.md)
