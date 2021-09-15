@@ -42,6 +42,7 @@ RD = 180 cm,
 the rate constant, k is calculated to be -0.02445 and the array of factors, F, are computed as:
 
 | sllb |  mid |     F |
+| ---- | ---- | ----- |
 |    5 |  2.5 | 1.000 |
 |   15 |   10 | 1.000 |
 |   30 | 22.5 | 0.941 |
