@@ -35,9 +35,11 @@ If mid(j) <= PP
 
 #### Example 1 - Root growth factor:
 
+<!-- 
 ```
 FILL, SLRGF, ROOT_DIST(), 1.0, 20, 180
 ```
+ -->
 
 For M = 1.0, 
 PP = 20 cm, 
