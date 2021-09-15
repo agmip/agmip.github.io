@@ -3,7 +3,7 @@
 * [AUTO_IDATE - Automatic Irrigation Date using GDD](DOME_AUTO_IDATE.md)
 * [TRANSPOSE - Insert array value](DOME_TRANSPOSE.md)
 * [AUTO_PDATE - Automatic Planting Date](DOME_AUTO_PDATE.md)
-* [ROOT_DIST - Root distribution function ](ROOT_DIST.md)
+* [ROOT_DIST - Root distribution function ](DOME_ROOT_DIST.md)
 * []()
 * []()
 * []()
