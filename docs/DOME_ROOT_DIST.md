@@ -40,7 +40,18 @@ For M = 1.0,
 PP = 20 cm, 
 RD = 180 cm, 
 the rate constant, k is calculated to be -0.02445 and the array of factors, F, are computed as:
- 
+
+<!-- 
+| sllb |  mid |     F |
+|    5 |  2.5 | 1.000 |
+|   15 |   10 | 1.000 |
+|   30 | 22.5 | 0.941 |
+|   60 |   45 | 0.543 |
+|   90 |   75 | 0.261 |
+|  120 |  105 | 0.125 |
+|  150 |  135 | 0.060 |
+|  180 |  165 | 0.029 | 
+-->
 
 
 <!-- ![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/ROOT_DIST.png) -->
