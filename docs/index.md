@@ -14,3 +14,4 @@ Links to Content:
   - [AgMIP Translators](AgMIP_translators.md)
     - [DOMEs](DOME.md)
   - [ICASA](ICASA.md)
+  - [AgMIP Climate Scenario Naming Convention](CLIM_ID.md)
