@@ -35,10 +35,20 @@ If mid(j) <= PP
 
 #### Example 1 - Root growth factor:
 
-```
-FILL, SLRGF, ROOT_DIST(), 1.0, 20, 180
-```
+
+For M = 1.0, 
+PP = 20 cm, 
+RD = 180 cm, 
+the rate constant, k is calculated to be -0.02445 and the array of factors, F, are computed as:
  
+
+
+<!-- ![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/ROOT_DIST.png) -->
+
+
+**More Samples:**
+ The following DOME spreadsheet uses this function:
+[Machakos Overlay DOME](https://github.com/agmip/json-translation-samples/blob/master/Maize_Machakos/raw/Field_Overlay-Machakos-MAZ.xlsx?raw=true)
 
 
 [Home](index.md)
