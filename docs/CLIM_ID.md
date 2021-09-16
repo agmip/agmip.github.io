@@ -129,3 +129,7 @@ These are the naming conventions that have been developed for daily weather data
 * I = P daily variability and mean change only
 * J = Tmax and Tmin daily variability change only
 * K = P daily variability change only
+
+
+
+[Home](index.md)
