@@ -35,6 +35,9 @@ If mid(j) <= PP
 
 #### Example 1 - Root growth factor:
 
+FILL, SLRGF, ROOT_DIST(), 1.0, 20, 180
+
+
 
 For M = 1.0, 
 PP = 20 cm, 
@@ -53,7 +56,9 @@ the rate constant, k is calculated to be -0.02445 and the array of factors, F, a
 |  180 |  165 | 0.029 | 
 
 
+
 ![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/ROOT_DIST.png)
+
 
 **More Samples:**
  The following DOME spreadsheet uses this function:
