@@ -2,6 +2,7 @@
 Provide the changes on carbon dioxide concentrations, temperature, precipitation and nitrogen to a selected weather scenario record.
 
 It will typically be used for [C3MP sensitivity analysis](https://research.agmip.org/pages/viewpage.action?pageId=6029905) and CTWN sensitivity analysis.
+
 ### Inputs:
 * CO2 concentration, annual (ppm), value for replace, optional
 * Temperature of air, maximum (oC), value for add, optional
@@ -9,6 +10,7 @@ It will typically be used for [C3MP sensitivity analysis](https://research.agmip
 * Rainfall, including moisture in snow, in one day (mm), value for multiply, optional
 * Nitrogen, total amount over season (kg/ha), value for  replace, optional
 * Climate scenario identification (code), optional.
+
 ### Implicit Inputs (i.e., available in the data):
 * weather data
  
@@ -33,3 +35,8 @@ where the S101 is used to as denote this as C3MP sensitivity element 1. (AgMIP C
 
 ### More Samples:
  This function is used with Batch Domes. You can check the sample batch file for this function by clicking [HERE](https://github.com/agmip/json-translation-samples/blob/master/Templates/Batch/Batch_Sensitivity.xlsx?raw=true).
+
+
+[Dome functions page](DOME_functions.md)
+
+[Home](index.md)

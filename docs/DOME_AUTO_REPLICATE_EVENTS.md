@@ -3,10 +3,12 @@
 This function will clone the original management events for each year in the experiment duration. Only the date of each event will be increased year by year to simulate multiple years. If the experiment duration only 1 year, no generation will be done. 
 
 If this function is used in conjunction with with [AUTO_PDATE()](\DOME_AUTO_PDATE.md), then the generated event dates are based on the generated planting dates and the original days after planting.
+
 ### Implicit Inputs (i.e., available in the data)
 * EXP_DUR - number of years of simulation
 * SC_YEAR - Simulation start year
 * Management events
+
 ### Outputs:
 * New events with corresponding dates for each year
  
@@ -17,6 +19,7 @@ If this function is used in conjunction with with [AUTO_PDATE()](\DOME_AUTO_PDAT
 &, REPLACE, SC_YEAR, 1981
 &, REPLACE, PDATE, AUTO_REPLICATE_EVENTS()
 ```
+
 #### Original events:
 ```JSON
 [
@@ -24,6 +27,7 @@ If this function is used in conjunction with with [AUTO_PDATE()](\DOME_AUTO_PDAT
     {"event":"irrigation", "date":"19820304", "irop":"IR001", "irval":"13"}
 ]
 ```
+
 #### Output events:
 ```JSON
 [
@@ -51,6 +55,7 @@ If this function is used in conjunction with with [AUTO_PDATE()](\DOME_AUTO_PDAT
 &, REPLACE, PDATE, AUTO_PDATE(),0501,0701,25,5
 &, REPLACE, PDATE, AUTO_REPLICATE_EVENTS()
 ```
+
 #### Original events:
 ```JSON
 [
@@ -58,6 +63,7 @@ If this function is used in conjunction with with [AUTO_PDATE()](\DOME_AUTO_PDAT
     {"event":"irrigation", "date":"19820304", "irop":"IR001", "irval":"13"}
 ]
 ```
+
 #### Output events:
 ```JSON
 [
@@ -75,7 +81,12 @@ If this function is used in conjunction with with [AUTO_PDATE()](\DOME_AUTO_PDAT
     ]
 ]
 ```
+
 ### More Samples:
 The following DOME spreadsheet is using this function.
 
 [Seasonal DOME Template](https://github.com/agmip/json-translation-samples/blob/master/Maize_Machakos/raw/Seasonal_strategy-Machakos-MAZ-0XFX.xlsx?raw=true) (check the sheet Seasonal_strategy_baseline_2 )
+
+[Dome functions page](DOME_functions.md)
+
+[Home](index.md)
