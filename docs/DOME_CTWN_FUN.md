@@ -1,7 +1,7 @@
 # CTWN_FUN() - simple change on data for sensitivity analysis
 Provide the changes on carbon dioxide concentrations, temperature, precipitation and nitrogen to a selected weather scenario record.
 
-It will typically be used for [C3MP sensitivity analysis]() and CTWN sensitivity analysis.
+It will typically be used for [C3MP sensitivity analysis](https://research.agmip.org/pages/viewpage.action?pageId=6029905) and CTWN sensitivity analysis.
 ### Inputs:
 * CO2 concentration, annual (ppm), value for replace, optional
 * Temperature of air, maximum (oC), value for add, optional

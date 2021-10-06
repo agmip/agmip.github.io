@@ -2,7 +2,7 @@
 
 Calculates the irrigation dates based on the cumulative growing degree days (GDD). Each irrigation event occurs when a target GDD (C) is accumulated. 
 The function assumes that the default irrigation operation code IR001. This code could be replaced with other value by add additional DOME command (example #2)
-GDD Calculation sample can be found here.
+GDD Calculation sample can be found [here](attachments/Irrigation%20Scheduling.xlsx?raw=true).
 
 ### Inputs:
 * Number of irrigation events
