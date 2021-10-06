@@ -1,8 +1,12 @@
 # DOME functions
 
 * [AUTO_IDATE - Automatic Irrigation Date using GDD](DOME_AUTO_IDATE.md)
+* [Automatic Irrigation](DOME_AUTO_IRRIGATION.md)
 * [TRANSPOSE - Insert array value](DOME_TRANSPOSE.md)
 * [AUTO_PDATE - Automatic Planting Date](DOME_AUTO_PDATE.md)
+* [AUTO_REPLICATE_EVENTS - clone events for each year](DOME_AUTO_REPLICATE_EVENTS.md)
+* [CLIM_CO2 - climate scenario relink function](DOME_CLIM_CO2.md)
+* [CTWN_FUN - simple change on data for sensitivity analysis](DOME_CTWN_FUN.md)
 * [ROOT_DIST - Root distribution function ](DOME_ROOT_DIST.md)
 * []()
 * []()
