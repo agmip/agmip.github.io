@@ -7,6 +7,8 @@
 * [AUTO_REPLICATE_EVENTS - clone events for each year](DOME_AUTO_REPLICATE_EVENTS.md)
 * [CLIM_CO2 - climate scenario relink function](DOME_CLIM_CO2.md)
 * [CTWN_FUN - simple change on data for sensitivity analysis](DOME_CTWN_FUN.md)
+* [FERT_DIST - Fertilizer Details](DOME_FERT_DIST.md)
+* [ICN_DIST - Initial Soil N distribution function](DOME_ICN_DIST.md)
 * [ROOT_DIST - Root distribution function ](DOME_ROOT_DIST.md)
 * []()
 * []()
