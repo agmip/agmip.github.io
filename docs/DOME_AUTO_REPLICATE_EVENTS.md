@@ -48,7 +48,7 @@ If this function is used in conjunction with with [AUTO_PDATE()](\DOME_AUTO_PDAT
 
  
 ### Example 2:
-#### language!, AUTO_PDATE() and AUTO_REPLICTE_EVENTS() together
+#### !, AUTO_PDATE() and AUTO_REPLICTE_EVENTS() together
 ```
 &, REPLACE, EXP_DUR, 3
 &, REPLACE, SC_YEAR, 1982
