@@ -44,6 +44,7 @@ k = -0.0978
 ```
 
 #### Calculation of stable C:
+
 | sllb | TOC  | mid  | F     | SOM2_frac | SOM3_frac | StableC |
 | ---- | ---- | ---- | ----- | ----- | ----- | ---- |
 | 5    | 5.00 | 2.5  | 0.428 | 0.428 | 0.550 | 2.75 |
