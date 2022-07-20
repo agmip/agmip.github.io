@@ -18,10 +18,17 @@ As shown in Figure 2, AgMIP data files consist of three parts, experiments, weat
 
 ## AgMIP Data Tools
 
-AgMIP data interoperability tools can be freely downloaded from the [AgMIP toolshed](http://tools.agmip.org/). The more useful tools for most Ag Data Commons users are:
+Browser-based AgMIP/ARDN data translation tools can be found [here](https://data.agmip.org/ardn/tools/data_factory). The data factory allows users to select their data, the SC2 file, and the final output formats. The application converts the selected data into model-specific formats for several popular crop models. Users may include [DOME data](https://agmip.github.io/DOME.html)
+
+Desktop versions of the AgMIP data interoperability tools can also be freely downloaded from the [AgMIP toolshed](http://tools.agmip.org/), although these tools require the Java Runtime Environment to be loaded on your computer first. The most useful AgMIP desktop tools for most Ag Data Commons users are:
 
 - [ACEB Viewer](http://tools.agmip.org/acebviewer.php) - This tool allows ACEB files to be explored visually. 
 - [QuadUI](http://tools.agmip.org/quadui.php) - This java software application can be run as a desktop application or from a command line. The application reads various data formats, including AgMIP JSON and ACEB files, and converts data to model-specific formats. 
+
+## Example of translation using the AgMIP / ARDN Data Factory
+
+You can download the [instructions and data files](https://github.com/agmip/ARDN/raw/master/docs/extras/Data_Factory_Exercise.zip) to run a translation sample through the Data Factory. This exercise builds on the [VMapper exercise](https://github.com/agmip/ARDN/raw/master/docs/extras/VMapper_Exercise.zip).
+
 
 ## Example of translation for DSSAT Cropping System Model using QuadUI
 
@@ -36,8 +43,7 @@ The sample data used in this example are a subset of data for a field crop exper
 
 Figure 3 shows a screenshot of the QuadUI desktop application after a user has selected the HSC-sample_4.5.aceb file. (Note that QuadUI can also be used to translate raw data from Excel and other formats, where providing soils and weather data separately may be convenient, but in this case, the weather and soils data are included in the ACEB file.)
 
-![image](https://https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/AgMIP_QuADUI.png)
-
+![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/AgMIP_QuADUI.png)
 *Figure 3. QuadUI screenshot*
 
 The user has selected to translate the data to DSSAT format. When the “Convert” option is selected, the data are translated to DSSAT format. Multiple crop modeling options may be selected simultaneously, and the model input files are created in separate folders for each model. In this case, a single folder for DSSAT will be created for the translated files.
