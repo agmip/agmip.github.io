@@ -2,7 +2,7 @@
 
 Calculates the irrigation dates based on the cumulative growing degree days (GDD). Each irrigation event occurs when a target GDD (C) is accumulated. 
 The function assumes that the default irrigation operation code IR001. This code could be replaced with other value by add additional DOME command (example #2)
-GDD Calculation sample can be found here.
+GDD Calculation sample can be found [here](attachments/Irrigation%20Scheduling.xlsx?raw=true).
 
 ### Inputs:
 * Number of irrigation events
@@ -11,7 +11,6 @@ GDD Calculation sample can be found here.
 * List of irrigation amount (IRVAL) for #1 irrigation (mm)
 * Target GDD for #2 irrigation (C-d) 
 * List of irrigation amount (IRVAL) for #2 irrigation (mm)
-* ...
 * Target GDD for #n irrigation (C-d) 
 * List of irrigation amount (IRVAL) for #n irrigation (mm)
 
@@ -24,7 +23,7 @@ GDD Calculation sample can be found here.
  
 ## Procedure:
  
-``` 
+```Fortran
  /* Loop the daily weather data to calculate GDD */ 
  j = 0
  sumGdd = 0
@@ -53,9 +52,11 @@ Calculation might fail if there is insufficient daily weather data. In that case
 
 This will add two irrigation events in the data set as follows, (calculated date depends on weather data):
 
-```
-[{"event"="irrigation", "date"="19800405", "irval"="40", "irop"="IR001"},
-{"event"="irrigation", "date"="19800505", "irval"="50", "irop"="IR001"}]
+```JSON
+[
+  {"event"="irrigation", "date"="19800405", "irval"="40", "irop"="IR001"},
+  {"event"="irrigation", "date"="19800505", "irval"="50", "irop"="IR001"}
+]
 ```
  
 **Example #2** Generate two irrigation events with IR004 (Sprinkler) operation code
@@ -67,9 +68,11 @@ This will add two irrigation events in the data set as follows, (calculated date
 
 The output is as follows:
 
-```
-[{"event"="irrigation", "date"="19800405", "irval"="40", "irop"="IR004"},
-{"event"="irrigation", "date"="19800505", "irval"="50", "irop"="IR004"}]
+```JSON
+[
+  {"event"="irrigation", "date"="19800405", "irval"="40", "irop"="IR004"},
+  {"event"="irrigation", "date"="19800505", "irval"="50", "irop"="IR004"}
+]
 ```
  
 **Example #3** Replace original irrigation events with new generated irrigation events

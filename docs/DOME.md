@@ -21,6 +21,7 @@ As an example, we will look at the Field overlay DOME used for the Hot Serial Ce
 * The fourth column contains either a value or a function name. 
 * All function names include “()” after the function name. Columns 5 through N after a function name contain function parameters. 
 * Functions are applied in order, so if variable B depends on variable A, then variable A must be specified prior to variable B. 
+* See more about DOME functions [**here**](DOME_functions.md)
 
 ### Metadata section
 The metadata section at the top of every DOME file contains the full description of the scenario being modeled. This section is used by AgMIP Regional Integrated Assessment Teams to carry consistent metadata throughout workflows to provide provenance to final model outputs. Fields that are not relevant to a simulation may be left blank, but as a minimum, the DOME region identification (REG_ID) must be filled.
@@ -34,7 +35,7 @@ The initial conditions block is often needed in simulations if the soil water an
 
 ![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/DOME2.JPG)
 
-In this example, initial soil water content (ICH2O) was estimated using the PCTAWC function (percent available water). The user estimated that at the beginning of simulation that soil water content in each layer of the soil profile was 50% between lower limit and drained upper limit. See http://research.agmip.org/display/itwiki/PCTAWC+-+Percent+available+water for more information on this function.
+In this example, initial soil water content (ICH2O) was estimated using the PCTAWC function (percent available water). The user estimated that at the beginning of simulation that soil water content in each layer of the soil profile was 50% between lower limit and drained upper limit. 
 
 The initial soil nitrate (ICNO3) and ammonium (ICNH4) values are provided as values. These variables are arrays and so the same value is used for every element of the array. In this case, initial nitrate concentration is set to 5 ppm and ammonium to 2 ppm in every soil layer.
 The csv form of this initial conditions section would look like this:
@@ -47,9 +48,9 @@ Planting and soil data are similarly filled with modeler-supplied parameters. So
 ![image](https://raw.githubusercontent.com/agmip/agmip.github.io/master/docs/images/DOME4.JPG)
 
 ### Soil data
-Some additional DOME functions are provided in the soil data. The ROOT_DIST() function allows the DSSAT array, soil root growth factor, to be set based on a value in the topsoil, the depth of the topsoil, and the depth at which the exponentially decaying function reaches 2% of the value in the topsoil.  More information about this function is given here: http://research.agmip.org/display/itwiki/ROOT_DIST+-+Root+distribution+function. 
+Some additional DOME functions are provided in the soil data. The ROOT_DIST() function allows the DSSAT array, soil root growth factor, to be set based on a value in the topsoil, the depth of the topsoil, and the depth at which the exponentially decaying function reaches 2% of the value in the topsoil.  More information about this function is given here: [ROOT_DIST - Root distribution function ](DOME_ROOT_DIST.md).
 
-The second function used here computes stable organic C as a function of soil depth based on the STABLEC() function, described here: http://research.agmip.org/display/itwiki/STABLEC+-+Stable+C+fraction+distribution+in+soil+layers. 
+The second function used here computes stable organic C as a function of soil depth based on the STABLEC() function, described here: [STABLEC - Stable C fraction distribution in soil layers](DOME_STABLEC.md). 
 
 The MULTIPLY() function simply takes one value as an argument, multiplies it by a constant, and returns the requested variable. In this case, the inert organic C array is computed as 0.9 times the stable organic C computed with the previous function.
 
