@@ -1,6 +1,6 @@
 # ICASA Vocabulary
 
-The International Consortium for Agricultural Systems Applications (ICASA) developed a set of data protocols for field crop experiments. As part of these protocols, a comprehensive data dictionary was created, intended as a means to fully describe field crop experiments using a common vocabulary. In 2011, AgMIP adopted the ICASA Data Dictionary for use in AgMIP data interoperability protocols. The ICASA Data Dictionary (or Master Variable List) can be found **[here](http:/www.tinyurl.com/icasa-mvl)**. This is a living document that is currently curated by Jeff White and Cheryl Porter.
+The International Consortium for Agricultural Systems Applications (ICASA) developed a set of data protocols for field crop experiments. As part of these protocols, a comprehensive data dictionary was created, intended as a means to fully describe field crop experiments using a common vocabulary. In 2011, AgMIP adopted the ICASA Data Dictionary for use in AgMIP data interoperability protocols. The ICASA Data Dictionary (or Master Variable List) can be found **[here](https://github.com/DSSAT/ICASA-Dictionary)**. This is a living document that is currently curated by Jeff White and Cheryl Porter.
 
 VMapper, the AgMIP translation tools, and the ARDN Translator API all depend on the ICASA Data Dictionary as the basis for negotiating terms and units. 
 
